@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muckleford Creek Beef | Regenerative Grass-Fed Beef | Castlemaine & Maldon, Victoria</title>
+    <meta name="description" content="Premium organic & biodynamic grass-fed beef from Muckleford Creek, Victoria. No chemicals, hormones or antibiotics. Beyond carbon neutral. Direct from our regenerative farm to you.">
+    <meta property="og:title" content="Muckleford Creek Beef | Regenerative Grass-Fed Beef">
+    <meta property="og:description" content="Premium organic & biodynamic grass-fed beef from Muckleford Creek, Victoria. No chemicals, hormones or antibiotics. Beyond carbon neutral.">
+    <meta property="og:type" content="website">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pasture: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            300: '#86efac',
+                            400: '#4ade80',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        soil: {
+                            50: '#fafaf9',
+                            100: '#f5f5f4',
+                            200: '#e7e5e4',
+                            300: '#d6d3d1',
+                            400: '#a8a29e',
+                            500: '#78716c',
+                            600: '#57534e',
+                            700: '#44403c',
+                            800: '#292524',
+                            900: '#1c1917',
+                        },
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        serif: ['Georgia', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        h1, h2, h3 { font-family: 'Libre Baskerville', serif; }
+        body { font-family: 'Open Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-pasture-50 text-soil-900">
+
+    <!-- Fixed Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#hero" class="flex items-center gap-2">
+                <img src="https://huggingface.co/spaces/g1winner/pasture-to-plate-perfection/resolve/main/images/Screenshot%202026-01-22%20at%208.13.23%E2%80%AFam.png" alt="Muckleford Creek Beef Logo" class="h-10">
+                <span class="text-2xl font-bold text-pasture-700">Muckleford Creek Beef</span>
+            </a>
+<!-- Desktop Nav -->
+            <nav class="hidden md:flex space-x-8">
+                <a href="#story" class="text-soil-700 hover:text-pasture-600 font-medium">Our Story</a>
+                <a href="#difference" class="text-soil-700 hover:text-pasture-600 font-medium">What Makes Us Different</a>
+                <a href="#beef" class="text-soil-700 hover:text-pasture-600 font-medium">Our Beef</a>
+                <a href="#buy" class="text-soil-700 hover:text-pasture-600 font-medium">How to Buy</a>
+                <a href="#visits" class="text-soil-700 hover:text-pasture-600 font-medium">Farm Visits</a>
+                <a href="tel:0414617542" class="bg-pasture-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-pasture-700 flex items-center gap-2">
+                    <i data-feather="phone"></i> 0414 617 542
+                </a>
+            </nav>
+            
+            <!-- Mobile Hamburger -->
+            <button id="mobile-menu-button" class="md:hidden text-soil-700">
+                <i data-feather="menu" class="w-8 h-8"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-pasture-200">
+            <nav class="flex flex-col px-6 py-4 space-y-4">
+                <a href="#story" class="text-soil-700 hover:text-pasture-600 font-medium">Our Story</a>
+                <a href="#difference" class="text-soil-700 hover:text-pasture-600 font-medium">What Makes Us Different</a>
+                <a href="#beef" class="text-soil-700 hover:text-pasture-600 font-medium">Our Beef</a>
+                <a href="#buy" class="text-soil-700 hover:text-pasture-600 font-medium">How to Buy</a>
+                <a href="#visits" class="text-soil-700 hover:text-pasture-600 font-medium">Farm Visits</a>
+                <a href="tel:0414617542" class="bg-pasture-600 text-white px-6 py-3 rounded-lg font-semibold text-center">Call 0414 617 542</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://thumbs.dreamstime.com/b/cows-grazing-sunset-farm-285130987.jpg');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative text-center text-white px-6 max-w-4xl">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">Pure Grass-Fed Beef<br>From Healthy Soils to Healthy People</h1>
+            <p class="text-xl md:text-2xl mb-10">Regenerative, Organic & Biodynamic beef raised on Muckleford Creek, Central Victoria.<br>No chemicals, no hormones, no antibiotics — ever.</p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="#buy" class="bg-pasture-600 text-white px-10 py-5 rounded-lg text-lg font-semibold hover:bg-pasture-700">Order or Enquire Now</a>
+                <a href="#visits" class="border-2 border-white text-white px-10 py-5 rounded-lg text-lg font-semibold hover:bg-white hover:text-pasture-700">Visit the Farm</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section id="story" class="py-20 bg-pasture-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-pasture-800">Our Story</h2>
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <img src="https://huggingface.co/spaces/g1winner/pasture-to-plate-perfection/resolve/main/images/Screenshot%202026-01-22%20at%208.13.23%E2%80%AFam.png" alt="Muckleford Creek farm landscape near Castlemaine" class="rounded-xl shadow-2xl">
+</div>
+                <div>
+                    <p class="text-lg leading-relaxed mb-6">Muckleford Creek Beef is a family-run regenerative farm located on Muckleford Creek between Castlemaine and Maldon in Central Victoria.</p>
+                    <p class="text-lg leading-relaxed mb-6">Deane and Marie Belfield raise Hereford/Angus cattle using regenerative agriculture principles — working with nature to build healthy soils, lush pastures, thriving animals, and nutrient-dense food.</p>
+                    <p class="text-lg leading-relaxed">Our focus is simple: healthy soils → healthy pastures → healthy cattle → healthy people.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Makes Us Different -->
+    <section id="difference" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-pasture-800">What Makes Us Different</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="bg-pasture-50 p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-pasture-700">Regenerative Agriculture</h3>
+                    <p>We build healthy soil that captures carbon, improves water retention, and supports biodiversity — creating healthier pastures, cattle, and people.</p>
+                </div>
+                <div class="bg-pasture-50 p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-pasture-700">100% Grass-Fed</h3>
+                    <p>Our Hereford/Angus cattle eat only pasture their entire lives — never grain, for superior flavour and nutrition.</p>
+                </div>
+                <div class="bg-pasture-50 p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-pasture-700">No Medical Interventions</h3>
+                    <p>No growth hormones, routine antibiotics, food dyes, preservatives, Bovaer, or mRNA vaccines — ever.</p>
+                </div>
+                <div class="bg-pasture-50 p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-pasture-700">Certified Organic</h3>
+                    <p>Third-party certified under the National Organic Standard — no synthetic chemicals or fertilisers.</p>
+                </div>
+                <div class="bg-pasture-50 p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-pasture-700">Demeter Biodynamic</h3>
+                    <p>Goes beyond organic — treats the farm as a living ecosystem using natural preparations for vital, nutrient-dense food.</p>
+                </div>
+                <div class="bg-pasture-50 p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-pasture-700">Beyond Carbon Neutral</h3>
+                    <p>First Victorian farm registered under the Emissions Reduction Fund for soil carbon sequestration. We draw down more CO₂ than we emit.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Beef -->
+    <section id="beef" class="py-20 bg-pasture-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-pasture-800">Our Premium Beef</h2>
+            <p class="text-xl text-center max-w-3xl mx-auto mb-12">Prepared and cryovaced by a master butcher. Sold in convenient ~20kg mixed boxes containing steaks, slow-cook roasts, mince, and sausages. Customers consistently tell us it's the most flavoursome beef they've ever tasted.</p>
+            <div class="grid md:grid-cols-2 gap-10">
+                <img src="https://farmertofridge.com.au/assets/uploads/vendor/v27829/_large/Two-Creeks-Beef-Two-Creeks-Whole-Cow-Spread.jpg" alt="Selection of vacuum-packed grass-fed beef cuts" class="rounded-xl shadow-2xl">
+                <img src="https://www.bordbia.ie/globalassets/bordbia.ie/lifestyle/recipes/bord-bia-recipe-images/steak-with-grilled-vegetables.jpg" alt="Plated premium grass-fed steak" class="rounded-xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Buy (Placeholder) -->
+    <section id="buy" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-pasture-800">Ready to Order Premium Regenerative Beef?</h2>
+            <p class="text-xl text-center max-w-3xl mx-auto mb-12">We sell in ~20kg mixed boxes (price on application). Melbourne delivery by arrangement. Share a box with family or friends if needed. Full online ordering and subscriptions coming soon — join our waitlist for priority access and loyalty rewards.</p>
+            
+            <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <div class="bg-pasture-50 p-10 rounded-xl">
+                    <h3 class="text-2xl font-bold mb-6">Pre-Order or Enquire</h3>
+                    <form id="enquiry-form" class="space-y-6">
+                        <input type="text" placeholder="Your Name" required class="w-full px-4 py-3 rounded-lg border border-pasture-300 focus:outline-none focus:border-pasture-600">
+                        <input type="email" placeholder="Your Email" required class="w-full px-4 py-3 rounded-lg border border-pasture-300 focus:outline-none focus:border-pasture-600">
+                        <input type="tel" placeholder="Your Phone" required class="w-full px-4 py-3 rounded-lg border border-pasture-300 focus:outline-none focus:border-pasture-600">
+                        <input type="text" placeholder="Postcode / Suburb" class="w-full px-4 py-3 rounded-lg border border-pasture-300 focus:outline-none focus:border-pasture-600">
+                        <textarea placeholder="Message (e.g. interested in a 20kg box, delivery options, etc.)" rows="5" class="w-full px-4 py-3 rounded-lg border border-pasture-300 focus:outline-none focus:border-pasture-600"></textarea>
+                        <button type="submit" class="w-full bg-pasture-600 text-white py-4 rounded-lg font-semibold text-lg hover:bg-pasture-700">Send Enquiry</button>
+                    </form>
+                </div>
+                <div class="space-y-8">
+                    <div class="bg-soil-100 p-8 rounded-xl">
+                        <h4 class="text-xl font-bold mb-4">Coming Soon</h4>
+                        <ul class="list-disc list-inside space-y-3 text-lg">
+                            <li>Loyalty program with rewards for repeat customers</li>
+                            <li>Pre-order subscriptions for better herd planning</li>
+                            <li>Membership perks and priority access</li>
+                        </ul>
+                    </div>
+                    <div class="text-center">
+                        <a href="tel:0414617542" class="inline-flex items-center gap-3 bg-pasture-600 text-white px-10 py-6 rounded-xl text-xl font-bold hover:bg-pasture-700">
+                            <i data-feather="phone"></i> Call Now: 0414 617 542
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Farm Visits -->
+    <section id="visits" class="py-20 bg-pasture-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-12 text-pasture-800">Visit the Farm</h2>
+            <p class="text-xl max-w-3xl mx-auto mb-10">We love welcoming visitors to see our regenerative practices firsthand. Come meet the cattle, walk the pastures, and understand where your food comes from.</p>
+            <a href="#buy" class="bg-pasture-600 text-white px-10 py-5 rounded-lg text-lg font-semibold hover:bg-pasture-700">Book a Farm Visit / Enquire</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-soil-800 text-pasture-50 py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-2xl font-bold mb-6">Muckleford Creek Beef</p>
+            <p class="mb-4">Deane and Marie Belfield • Muckleford Creek, Central Victoria</p>
+            <p class="mb-8"><a href="tel:0414617542" class="underline hover:text-pasture-300">0414 617 542</a></p>
+            <p class="text-sm">© 2026 Muckleford Creek Beef. Proudly regenerative, organic and biodynamic.</p>
+            <p class="text-sm mt-4">Certified Organic • Demeter Biodynamic • Beyond Carbon Neutral</p>
+        </div>
+    </footer>
+
+    <script>
+        // Feather icons
+        feather.replace();
+
+        // Mobile menu toggle
+        const mobileButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Form submission placeholder
+        const form = document.getElementById('enquiry-form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your enquiry! Deane or Marie will contact you shortly.');
+            form.reset();
+        });
+    </script>
+
+    <script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
